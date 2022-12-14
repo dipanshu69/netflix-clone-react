@@ -33,7 +33,7 @@ const Signup = () => {
   }, [navigate]);
 
   return (
-    <Container showPassword={showPassword} className="container">
+    <Container showPassword={showPassword}>
       <BackgroundImage />
       <div className="content">
         <Header login />
